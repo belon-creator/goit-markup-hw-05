@@ -311,12 +311,15 @@ html {
 
 .add {
   position: relative;
+  background-color: #323232;
 }
+
 .add-to-cart {
   display: block;
   position: absolute;
   text-align: center;
   background-position: center;
+
   top: 20px;
   left: 50px;
 }
@@ -329,6 +332,7 @@ html {
 .img-button:nth-child(4n) {
   width: 166px;
   background-position: left;
+
   color: #fff;
   text-transform: uppercase;
   font-weight: 300;
