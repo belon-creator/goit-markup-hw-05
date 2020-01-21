@@ -146,26 +146,39 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
 } */
+.banner-container {
+  width: 745px;
+  height: 110px;
+}
 .banner-span {
   font-weight: 700;
   color: #4ec6ab;
 }
 
-.banner-description {
+.banner-description,
+.banner-description-bold {
   position: absolute;
   margin: 0;
-  font-weight: 300;
   top: 140px;
-  margin-left: 440px;
+  left: 50%;
+  transform: translateX(-50%);
   text-transform: uppercase;
   font-size: 48px;
   color: #fff;
   font-family: var(--font);
-  font-weight: 300;
   text-align: center;
   z-index: 2;
 }
+.banner-description {
+  font-weight: 300;
+}
 .banner-description-bold {
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  top: 50px;
+}
+/* .banner-description-bold {
   position: absolute;
   font-weight: 700;
   top: 200px;
@@ -177,7 +190,7 @@ html {
   font-weight: 400;
   text-align: center;
   z-index: 2;
-}
+} */
 .banner-btn {
   position: absolute;
   top: 330px;
@@ -274,6 +287,7 @@ html {
 .img-hover {
   position: absolute;
   overflow: hidden;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -285,6 +299,11 @@ html {
   opacity: 0;
 }
 
+.img-hover-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 .img-button {
   position: relative;
   border: 1px solid #fff;
@@ -327,6 +346,8 @@ html {
 .add {
   position: relative;
   background-color: #323232;
+  width: 164px;
+  top: -68px;
 }
 
 .add-to-cart {
@@ -334,9 +355,12 @@ html {
   position: absolute;
   text-align: center;
   background-position: center;
-
   top: 20px;
   left: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: var(--font);
 }
 
 .img-button:hover,
@@ -344,17 +368,6 @@ html {
   background-color: #1abc9c;
 }
 
-.img-button:nth-child(4n) {
-  width: 166px;
-  background-position: left;
-
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 300;
-  font-family: var(--font);
-  margin-bottom: 78px;
-  margin-top: 5px;
-}
 .content {
   display: flex;
   flex-wrap: wrap;
