@@ -524,7 +524,11 @@ html {
   line-height: 26px;
   font-weight: 300;
   text-align: center;
+<<<<<<< HEAD
   margin-bottom: 34px;
+=======
+  margin-bottom: 44px;
+>>>>>>> 14f6ac5ed5befb1d39c58d90e0c6b06bef3978b5
 }
 
 .enter-email input {
