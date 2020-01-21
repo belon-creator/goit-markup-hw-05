@@ -524,7 +524,7 @@ html {
   line-height: 26px;
   font-weight: 300;
   text-align: center;
-  margin-bottom: 44px;
+  margin-bottom: 34px;
 }
 
 .enter-email input {
@@ -557,4 +557,7 @@ html {
 .mail-btn:hover,
 .mail-btn:focus {
   background-color: #7fd9c7;
+}
+.footer {
+  padding-bottom: 136px;
 }
