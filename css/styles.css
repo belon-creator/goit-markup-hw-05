@@ -21,13 +21,17 @@ html {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   margin: 0 auto;
   height: 50px;
   background-color: #19bb9b;
 }
 
+.top-hdr-container {
+  display: flex;
+  justify-content: space-between;
+}
 .top-header-list {
   margin: 0;
   padding: 0;
